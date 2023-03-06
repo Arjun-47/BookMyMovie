@@ -1,0 +1,47 @@
+#header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+#header-logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+    float: left;
+}
+/*
+ref: https://flaviocopes.com/rotate-image/
+*/
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+.login-logout-button{
+    float: right;
+    text-transform: uppercase;
+}
+
+.book-show-button{
+    background-color: #0a7bde;
+    color: white;
+    float: right;
+    text-transform: uppercase;
+}
+
+#upcomingMoviesHeader {
+    text-align: center;
+    background-color: #ff7f7f;
+    padding: 8px 32px 8px 16px;
+}
+
+.formTabs{
+    background-color: white;
+    margin: 0px;
+    color: #222222;
+}

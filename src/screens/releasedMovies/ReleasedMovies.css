@@ -1,0 +1,10 @@
+.released-movies {
+    display: flex;
+    flex: 76%;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    flex: 24%
+}

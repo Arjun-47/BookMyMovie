@@ -1,0 +1,17 @@
+.login-form{
+    float: outside;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    vertical-align: middle;
+    horiz-align: center;
+    padding: 8px;
+}
+
+.login-button{
+    padding: 8px;
+    vertical-align: middle;
+    horiz-align: center;
+    margin: 1px;
+}
